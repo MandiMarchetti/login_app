@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:login_app/login_page/presentation/pages/home_page.dart';
-import 'package:login_app/login_page/presentation/pages/login_Welcome_back.dart';
-// import 'package:login_app/login_page/presentation/pages/login_welcome_back.dart';
-// import 'package:login_app/login_page/presentation/pages/login_page.dart';
+// import 'package:login_app/login_page/presentation/pages/home_page.dart';
+// import 'package:login_app/login_page/presentation/pages/login_Welcome_back.dart';
+import 'package:login_app/login_page/presentation/pages/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const LoginPage(),
-      home: const LoginWelcomeBack(),
+      home: const LoginPage(),
     );
   }
 }
